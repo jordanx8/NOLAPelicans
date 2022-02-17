@@ -70,6 +70,10 @@ a:hover {
    color: #660a19;
 }
 
+hr {
+   margin: 20px 0;
+}
+
 /* Header */
 header nav {
    text-align: center;
@@ -126,7 +130,7 @@ header nav ul li#logo a {
 /* The Whole Story */
 #story-excerpt {
    width: 450px;
-   margin-right: 24px;
+   margin-right: 20px;
    float: left;
    font-size: 16px;
 }
