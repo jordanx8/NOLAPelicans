@@ -1,0 +1,234 @@
+/* ===============================
+   Pelicans Color Palette:
+   ---------------
+   Navy:	         #0C2340
+   Red:			   #C8102E
+   Gold:			   #85714D
+   =============================== */
+
+/* General */
+body {
+   background: #0C2340 url('../images/bg-tile-navy.gif') top left repeat;
+   color: #85714D;
+   font-size: 14px;
+   font-family: 'Open Sans', sans-serif;
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizeLegibility;
+}
+
+.container {
+   width: 924px;
+   margin: 0 auto;
+   padding: 30px 24px;
+}
+
+/* Typography */
+h1, h2 {
+   color: #C8102E;
+   font-size: 40px;
+   font-weight: normal;
+   font-family: 'Love Ya Like A Sister', cursive;
+   line-height: 44px;
+   margin: 0;
+}
+
+h1 {
+   text-align: center;
+   padding: 0 0 55px;
+   background: url('../images/pelslogo.png') bottom center no-repeat;
+   background-size: 189px 82px;
+}
+
+h1 em {
+   font-style: normal;
+}
+
+h2 {
+   font-size: 32px;
+}
+
+h3 {
+   margin: 0;
+}
+
+p.lead {
+   font-size: 30px;
+   font-weight: 300;
+   text-align: center;
+   margin: 10px 0;
+}
+
+p {
+   margin: 0;
+}
+
+a:link, a:visited {
+   color: #C8102E;
+}
+
+a:hover {
+   color: #660a19;
+}
+
+/* Header */
+header nav {
+   text-align: center;
+   padding: 0 0 0 0;
+   position: relative;
+}
+
+header nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   display: block;
+   line-height: 141px;
+}
+
+header nav ul li {
+   display: inline-block;
+   padding: 0 20px;
+   width: 140px;
+}
+
+header nav ul li a {
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+header nav ul li#logo img {
+   position: absolute;
+   width: 227px;
+   height: 274px;
+   text-indent: -9999px;
+   top: 0;
+   left: 350px;
+   z-index: 1;
+}
+
+header nav ul li#logo a {
+   text-indent: -9999px;
+   top: 0;
+   left: 350px;
+}
+
+
+/* Hero */
+#hero {
+   background: #C8102E url('../images/bg-tile-red.gif') top left repeat;
+}
+
+#hero .container {
+   position: relative;
+}
+
+/* The Whole Story */
+#story-excerpt {
+   width: 450px;
+   margin-right: 24px;
+   float: left;
+   font-size: 16px;
+}
+
+#award {
+   padding: 30px 0 30px 0;
+   float: left;
+   width: 200px;
+}
+
+#herbpic {
+   padding: 0 20px 20px 18px;
+   float: left;
+   width: 200px;
+   border-left: solid;
+   border-color: white;
+}
+
+
+
+/* News & Events */
+#article {
+   width: 440px;
+   float: left;
+   margin-right: 24px;
+}
+
+#news-events article {
+   margin: 20px 0;
+   padding-left: 55px;
+}
+
+#news-events article.news {
+   background: url('../images/icon-news.png') top left no-repeat;
+}
+
+#news-events article.event {
+   background: url('../images/icon-calendar.png') top left no-repeat;
+}
+
+#news-events header time {
+   color:#C8102E;
+   font-size: 12px;
+}
+
+#news-events section.excerpt {
+   margin: 10px 0;
+}
+
+#news-events footer {
+   font-size: 12px;
+}
+
+#cjpic {
+   float: left;
+   padding: 40px 20px 20px 40px;
+   margin-bottom: 30px;
+}
+
+/* Footer */
+footer.main {
+   background: #C8102E url('../images/bg-tile-red.gif') top left repeat;
+   padding: 30px 0;
+   color: white;
+}
+
+#creditsa, #creditsa:visited {
+   color: #fff;
+}
+
+#creditsa:hover {
+   color: rgb(155, 150, 150);
+}
+
+#uncopyright, #credits {
+   width: 240px;
+   float: left;
+   padding: 10px 0 10px 50px;
+   text-align: center;
+}
+
+#uncopyright {
+   background: url('../images/icon-recycle.png') center left no-repeat;
+}
+
+#credits {
+   background: url('../images/icon-apple.png') center left no-repeat;
+   float: right;
+}
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+
