@@ -19,7 +19,7 @@ body {
 
 .container {
    width: 924px;
-   margin: 0 20%;
+   margin: 0 auto;
    padding: 30px 24px;
 }
 
