@@ -2,4 +2,4 @@
 
 Simple, one-page New Orleans Pelicans site mockup.
 
-Hosted on
+Hosted [here](https://jordanx8.github.io/NOLAPelicans/).
